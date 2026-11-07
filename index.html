@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Management System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Student Management System</h1>
+        <p>Academic Results Analysis Dashboard</p>
+    </header>
+
+    <main>
+
+        <section class="report-section">
+            <h2>Students Report</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Average</th>
+                        <th>Grade</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+
+                <tbody id="studentsTable">
+                </tbody>
+            </table>
+        </section>
+
+        <section class="report-section">
+            <h2>Grace Committee</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Old Average</th>
+                        <th>New Average</th>
+                    </tr>
+                </thead>
+
+                <tbody id="graceTable">
+                </tbody>
+            </table>
+
+            <div class="average-box">
+                <h3>Average After Grace</h3>
+                <p id="graceAverage">0</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Student Management System | JavaScript Task 2</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
